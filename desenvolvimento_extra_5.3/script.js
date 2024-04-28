@@ -1,7 +1,5 @@
-let titulo = document.createElement("h1");
-let conteudo = document.createTextNode("Compre Aqui");
-titulo.appendChild(conteudo);
-document.body.appendChild(titulo);
+let elementoH1 = document.querySelector("#titulo");
+elementoH1.innerText = "Compre Aqui";
 
 let produto = document.createElement("h3");
 let nome = document.createTextNode("Notebook Dell Inspiron 15 3530");
